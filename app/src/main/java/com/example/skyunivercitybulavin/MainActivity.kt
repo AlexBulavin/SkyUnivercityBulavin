@@ -228,6 +228,9 @@ class MainActivity : AppCompatActivity() {
             R.id.action_settings -> {
                 drawableSelection = R.drawable.device_350x600
                 selector = 1000
+                getSupportActionBar()?.setTitle("Все рецепты")
+                getSupportActionBar()?.setSubtitle("Выберте тип рецепта")
+                recipeImage.setImageResource(drawableSelection)
                 return true
             }
             R.id.action_select_bread -> {

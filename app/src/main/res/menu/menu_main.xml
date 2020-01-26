@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_select_bread"
+        android:orderInCategory="100"
+        android:title="@string/action_select_bread"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_select_cereal_oatmel"
+        android:orderInCategory="100"
+        android:title="@string/action_select_cereal_oatmel"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_select_desserts"
+        android:orderInCategory="100"
+        android:title="@string/action_select_desserts"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_select_drinks"
+        android:orderInCategory="100"
+        android:title="@string/action_select_drinks"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_select_jam"
+        android:orderInCategory="100"
+        android:title="@string/action_select_jam"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_select_main_course"
+        android:orderInCategory="100"
+        android:title="@string/action_select_main_course"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_select_pie_pizza"
+        android:orderInCategory="100"
+        android:title="@string/action_select_pie_pizza"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_select_salads"
+        android:orderInCategory="100"
+        android:title="@string/action_select_salads"
+        app:showAsAction="never"/>
+
+
+</menu>
