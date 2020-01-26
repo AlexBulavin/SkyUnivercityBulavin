@@ -149,6 +149,21 @@ class MainActivity : AppCompatActivity() {
 
             else -> R.drawable.salads_350x600_5
         }
+            1000-> drawableSelection = when (randomInt) {
+                0-> R.drawable.model_1_350x600
+                1-> R.drawable.device_350x600
+                2-> R.drawable.model_350x600_52
+                4-> R.drawable.model_350x600_53
+                5-> R.drawable.model_350x600_54
+                6-> R.drawable.model_350x600_55
+                7-> R.drawable.model_350x600_56
+                8-> R.drawable.model_350x600_57
+                9-> R.drawable.model_350x600_58
+                10-> R.drawable.model_350x600_59
+                11-> R.drawable.model_350x600_60
+
+                else -> R.drawable.model_350x600_61
+            }
         else -> drawableSelection = R.drawable.device_350x600
         }
 
