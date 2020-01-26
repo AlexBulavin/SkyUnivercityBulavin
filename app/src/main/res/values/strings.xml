@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">SkyUnivercityBulavin</string>
+    <string name="app_name">Прибор</string>
+    <string name="recipe_choice">Выбери рецепт</string>
+    <string name="content_description">Описание функционала приложения</string>
+    <string name="action_settings">Настройка</string>
+    <string name="action_select_bread">Хлеб</string>
+    <string name="action_select_cereal_oatmel">Каши</string>
+    <string name="action_select_drinks">Напитки</string>
+    <string name="action_select_desserts">Десерты</string>
+    <string name="action_select_jam">Варенье</string>
+    <string name="action_select_main_course">Основное блюдо</string>
+    <string name="action_select_pie_pizza">Пицца и пироги</string>
+    <string name="action_select_salads">Салаты</string>
+
+<!--    пример форматирования взят вот отсюда: https://alvinalexander.com/android/how-show-html-string-in-android-textview-webview-->
+<!--    не забыть в MainActivity импортировать import android.text.Html-->
+<!--    https://ru.stackoverflow.com/questions/458533/форматирование-текста-в-string-xml-->
+    <!--Описание рецепта-->
+    <string name="description_0"><![CDATA[<h2>Название рецепта 1, раздел 1</h2>]]>
+Текстовое описание реепта, раздел 1
+<p> <![CDATA[<h2>Заголовок раздела 2</h2>]]>  - Текст раздела 2 </p>
+    </string>
+
 </resources>
