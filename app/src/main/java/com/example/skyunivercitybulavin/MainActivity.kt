@@ -106,8 +106,7 @@ class MainActivity : AppCompatActivity() {
                 .into(recipeImage)
             //recipeImage.setImageResource(drawableSelection) //(resourceId)
             val recipeNameLocal :String = recipeName + " img " + drawableSelection
-            recipeName = recipeNameLocal.toString()
-            getSupportActionBar()?.setSubtitle(recipeName)
+            getSupportActionBar()?.setSubtitle(recipeNameLocal)
             textView.setText(Html.fromHtml(RecipeDescriptionSelector))
         }
 
