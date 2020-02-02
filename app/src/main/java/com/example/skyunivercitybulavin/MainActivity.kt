@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity() {
             picasso.load("https://image.stage.readyforsky.com/i/$drawableSelection/1370x2040.png")
                 .into(recipeImage)
             //recipeImage.setImageResource(drawableSelection) //(resourceId)
-            val recipeNameLocal :String = recipeName + " img " + drawableSelection
+            val recipeNameLocal :String =" img " + drawableSelection
             getSupportActionBar()?.setSubtitle(recipeNameLocal)
             textView.setText(Html.fromHtml(RecipeDescriptionSelector))
         }
